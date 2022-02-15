@@ -12,7 +12,7 @@ const https = require("https");
 const qs = require("querystring");
 const ejs = require('ejs');
 const checksum_lib = require("./paytm/checksum");
-const config = require("./Paytm/config");
+const config = require("./paytm/config");
 var tempuid;
 var tempamount;
 console.log(tempuid);
