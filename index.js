@@ -22,7 +22,7 @@ app.set("view engine", "ejs");
 const parseUrl = express.urlencoded({ extended: true });
 const parseJson = express.json({ extended: true });
 const { response, json } = require('express')
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 const corsOptions = {
   origin: '*',
   credentials: true,            //access-control-allow-credentials:true
