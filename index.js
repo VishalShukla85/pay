@@ -11,7 +11,7 @@ const db = admin.firestore();
 const https = require("https");
 const qs = require("querystring");
 const ejs = require('ejs');
-const checksum_lib = require("./Paytm/checksum");
+const checksum_lib = require("./paytm/checksum");
 const config = require("./Paytm/config");
 var tempuid;
 var tempamount;
